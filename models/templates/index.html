@@ -12,6 +12,8 @@
 {% for post in posts %}
     <h2>{{ post.title }}</h2>
     <p>{{ post.content }}</p>
+    <p>{{ post.email }}</p>
+    <p>{{ post.phone_number }}</p>
     <p><strong> Author :{{ post.author }}</strong></p>
     <p><strong> Created at :{{ post.crested_at }}</strong></p>
  {% endfor %}
